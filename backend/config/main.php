@@ -21,6 +21,7 @@ return [
             ],
         ],
         'user' => [
+            'identityClass' => 'common\models\User',
             'identityCookie' => [
                 'name' => '_backendIdentity',
                 'path' => '/admin',
